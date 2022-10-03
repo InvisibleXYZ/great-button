@@ -1,0 +1,17 @@
+{
+  "name": "one-button-should-work",
+  "version": "0.0.0",
+  "description": "OneButtonShouldWork",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . button --platform=win32"
+  },
+  "dependencies": {
+    "electron": "^21.0.0",
+    "electron-packager": "^16.0.0"
+  }
+}

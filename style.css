@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+button{
+    width: 500px;
+    height: 100px;
+    border: none;
+    border-radius: 7px;
+    background-color: grey;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
